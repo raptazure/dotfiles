@@ -1,0 +1,37 @@
+1
+/usr/share/backgrounds/xfce/play.jpg
+/usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png
+/usr/share/backgrounds/xfce/manjaro_maia_logo.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro_maia_abstract.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro_maia_abstract2.jpg
+/usr/share/backgrounds/xfce/abstract-1779631.jpg
+/usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_square.png
+/usr/share/backgrounds/wallpapers-juhraya/wMJ_J5_by_Bogdan-Covaciu.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro_maia_logo.jpg
+/usr/share/backgrounds/xfce/Manjaro_organic_1920x1080.jpg
+/usr/share/backgrounds/xfce/Manjaro_Perspective_light.jpg
+/home/raptazure/.config/variety/Favorites/abstract-1780241.jpg
+/usr/share/backgrounds/wallpapers-2018/nature-3181144.jpg
+/usr/share/backgrounds/wallpapers-2018/sun-ye0s2oy.jpg
+/usr/share/backgrounds/xfce/abstract-1780241.jpg
+/usr/share/backgrounds/illyria-default-lockscreen.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro-cat.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/illyria-light-maia.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro-cat.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/Manjaro_Glass_1080p.jpg
+/usr/share/backgrounds/xfce/Manjaro_organic_1920x1080.jpg
+/usr/share/backgrounds/xfce/snow-3404534.jpg
+/usr/share/backgrounds/xfce/light-stripe-maia.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/play.jpg
+/usr/share/backgrounds/wallpapers-2018/sky-3189347.jpg
+/usr/share/backgrounds/wallpapers-juhraya/Austria_by_Rutger_Heijmerikx.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/wpM_architect.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/manjaro_maia_abstract2.jpg
+/usr/share/backgrounds/wallpapers-2018/abstract-1779631.jpg
+/usr/share/backgrounds/wallpapers-2018/city-sleeps.jpg
+/usr/share/backgrounds/xfce/school-project.jpg
+/usr/share/backgrounds/xfce/manjaro-adapta-maia-1.jpg
+/usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_square.png
+/usr/share/backgrounds/xfce/illyria-light-maia.jpg
+/usr/share/backgrounds/xfce/palm-beach.jpg
+/usr/share/backgrounds/manjaro-wallpapers-18.0/illyria-adapta-dark-maia.jpg

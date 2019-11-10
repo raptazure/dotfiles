@@ -1,0 +1,447 @@
+INFO: 2019-11-10 15:12:03,876: perform_upgrade() 'Last run version was 0.7.2 or earlier, current version is 0.7.2'
+INFO: 2019-11-10 15:12:03,997: process_command() 'Received command: []'
+INFO: 2019-11-10 15:12:03,999: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2019-11-10 15:12:04,010: load() 'Jumble loading'
+INFO: 2019-11-10 15:12:04,011: _walk_modules() 'Jumble loading module in __init__ from /usr/share/variety/plugins/__init__.py'
+INFO: 2019-11-10 15:12:04,012: _walk_modules() 'Jumble loading module in __init__ from /usr/share/variety/plugins/quotes/__init__.py'
+INFO: 2019-11-10 15:12:04,012: _walk_modules() 'Jumble loading module in QuotesDaddySource from /usr/share/variety/plugins/quotes/QuotesDaddySource.py'
+INFO: 2019-11-10 15:12:04,013: load() 'Jumble found plugin class: <class 'QuotesDaddySource.QuotesDaddySource'>: {'name': 'QuotesDaddy', 'description': "Fetches quotes from QuotesDaddy's daily quotes RSS feed.\nDoes not support searching by tags or authors.", 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-11-10 15:12:04,013: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/share/variety/plugins/quotes/QuotationsPageSource.py'
+INFO: 2019-11-10 15:12:04,018: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-11-10 15:12:04,019: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/share/variety/plugins/quotes/LocalFilesSource.py'
+INFO: 2019-11-10 15:12:04,019: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-11-10 15:12:04,020: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/share/variety/plugins/quotes/GoodreadsSource.py'
+INFO: 2019-11-10 15:12:04,020: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2019-11-10 15:12:04,022: reload_config() 'Creating new downloader for type 6, location Random wallpapers from Desktoppr.co'
+INFO: 2019-11-10 15:12:04,023: reload_config() 'Creating new downloader for type 15, location Bing Photo of the Day'
+INFO: 2019-11-10 15:12:04,023: reload_config() 'Creating new downloader for type 16, location High-resolution photos from Unsplash.com'
+INFO: 2019-11-10 15:12:04,023: reload_config() 'Creating new downloader for type 8, location NASA's Astronomy Picture of the Day'
+INFO: 2019-11-10 15:12:04,023: reload_config() 'Creating new downloader for type 11, location World Sunlight Map - live wallpaper from Die.net'
+INFO: 2019-11-10 15:12:04,023: reload_config() 'Creating new downloader for type 7, location user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2019-11-10 15:12:04,023: log_options() 'Loaded options:'
+INFO: 2019-11-10 15:12:04,023: log_options() 'change_enabled = True'
+INFO: 2019-11-10 15:12:04,023: log_options() 'change_interval = 1200'
+INFO: 2019-11-10 15:12:04,023: log_options() 'change_on_start = False'
+INFO: 2019-11-10 15:12:04,023: log_options() 'clipboard_enabled = False'
+INFO: 2019-11-10 15:12:04,023: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2019-11-10 15:12:04,023: log_options() 'clipboard_use_whitelist = True'
+INFO: 2019-11-10 15:12:04,023: log_options() 'clock_date_font = Cantarell Thin 12'
+INFO: 2019-11-10 15:12:04,023: log_options() 'clock_enabled = True'
+INFO: 2019-11-10 15:12:04,023: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2019-11-10 15:12:04,023: log_options() 'clock_font = Cantarell Bold 36'
+INFO: 2019-11-10 15:12:04,023: log_options() 'configfile = /home/raptazure/.config/variety/variety.conf'
+INFO: 2019-11-10 15:12:04,023: log_options() 'copyto_enabled = False'
+INFO: 2019-11-10 15:12:04,023: log_options() 'copyto_folder = Default'
+INFO: 2019-11-10 15:12:04,023: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2019-11-10 15:12:04,023: log_options() 'desired_color_enabled = False'
+INFO: 2019-11-10 15:12:04,023: log_options() 'download_enabled = True'
+INFO: 2019-11-10 15:12:04,023: log_options() 'download_folder = /home/raptazure/.config/variety/Downloaded'
+INFO: 2019-11-10 15:12:04,023: log_options() 'download_interval = 86400'
+INFO: 2019-11-10 15:12:04,023: log_options() 'favorites_folder = /home/raptazure/.config/variety/Favorites'
+INFO: 2019-11-10 15:12:04,023: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2019-11-10 15:12:04,023: log_options() 'fetched_folder = /home/raptazure/.config/variety/Fetched'
+INFO: 2019-11-10 15:12:04,023: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-blur 120x40'], [False, 'Soft blur', '-blur 20x7'], [False, 'Oil painting', '-paint 8'], [False, 'Pencil sketch', '-colorspace gray \\( +clone -tile ~/.config/variety/pencil_tile.png -draw "color 0,0 reset" +clone +swap -compose color_dodge -composite \\) -fx \'u*.2+v*.8\''], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2019-11-10 15:12:04,024: log_options() 'icon = Dark'
+INFO: 2019-11-10 15:12:04,024: log_options() 'lightness_enabled = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'lightness_mode = 0'
+INFO: 2019-11-10 15:12:04,024: log_options() 'min_rating = 4'
+INFO: 2019-11-10 15:12:04,024: log_options() 'min_rating_enabled = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'min_size = 80'
+INFO: 2019-11-10 15:12:04,024: log_options() 'min_size_enabled = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quota_enabled = True'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quota_size = 256'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_authors = '
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_bg_opacity = 55'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_change_enabled = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_change_interval = 300'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_disabled_sources = ['QuotesDaddy']'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_enabled = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_favorites_file = /home/raptazure/.config/variety/favorite_quotes.txt'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_font = Bitstream Charter 30'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_hpos = 100'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_tags = '
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_text_shadow = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_vpos = 40'
+INFO: 2019-11-10 15:12:04,024: log_options() 'quotes_width = 70'
+INFO: 2019-11-10 15:12:04,024: log_options() 'safe_mode = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_custom_enabled = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_custom_folder = /home/raptazure/Pictures'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_fade = 0.4'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_monitor = All'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_pan = 0.05'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_seconds = 6.0'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_sort_order = Random'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_sources_enabled = True'
+INFO: 2019-11-10 15:12:04,024: log_options() 'slideshow_zoom = 0.2'
+INFO: 2019-11-10 15:12:04,024: log_options() 'smart_enabled = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'smart_notice_shown = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'smart_register_shown = False'
+INFO: 2019-11-10 15:12:04,024: log_options() 'sources = [[True, 3, 'The Favorites folder'], [True, 4, 'The Fetched folder'], [True, 2, '/usr/share/backgrounds'], [True, 6, 'Random wallpapers from Desktoppr.co'], [True, 15, 'Bing Photo of the Day'], [True, 16, 'High-resolution photos from Unsplash.com'], [True, 8, "NASA's Astronomy Picture of the Day"], [True, 11, 'World Sunlight Map - live wallpaper from Die.net'], [True, 7, 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;']]'
+INFO: 2019-11-10 15:12:04,024: log_options() 'stats_enabled = True'
+INFO: 2019-11-10 15:12:04,024: log_options() 'stats_notice_shown = False'
+INFO: 2019-11-10 15:12:04,025: log_options() 'sync_enabled = True'
+INFO: 2019-11-10 15:12:04,025: log_options() 'use_landscape_enabled = True'
+INFO: 2019-11-10 15:12:04,025: reload_config() 'No need to clear prepared queue'
+INFO: 2019-11-10 15:12:04,025: clock_thread_method() 'clock thread running'
+INFO: 2019-11-10 15:12:04,025: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 1200'
+INFO: 2019-11-10 15:12:04,025: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png'
+INFO: 2019-11-10 15:12:04,029: regular_change_thread() 'regular_change thread running'
+INFO: 2019-11-10 15:12:04,029: prepare_thread() 'Prepare thread running'
+INFO: 2019-11-10 15:12:04,030: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2019-11-10 15:12:04,030: prepare_thread() 'Preparing some images'
+INFO: 2019-11-10 15:12:04,031: update_indicator_icon() 'Creating indicator'
+WARNING: 2019-11-10 15:12:04,044: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2019-11-10 15:12:04,046: create_indicator() 'indicator backend: AppIndicator3'
+INFO: 2019-11-10 15:12:04,064: set_from_theme_icon() 'Showing indicator icon variety-indicator-dark from GTK theme'
+INFO: 2019-11-10 15:12:04,064: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png'
+INFO: 2019-11-10 15:12:04,077: prepare_thread() 'After search prepared buffer contains 100 images'
+INFO: 2019-11-10 15:12:04,126: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png, time: 1573369924.1267393'
+INFO: 2019-11-10 15:12:04,134: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:1920, ih:1080, scw:1920, sch:1080, ho:0, vo:0'
+INFO: 2019-11-10 15:12:04,135: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:12' -fill white -annotate 0x0+60+110 '15:12' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10''
+INFO: 2019-11-10 15:12:04,135: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert '/usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png' -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:12' -fill white -annotate 0x0+60+110 '15:12' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10' /home/raptazure/.config/variety/wallpaper/wallpaper-clock-e6227232f3718ebccea93ae03e4acbe3.jpg'
+INFO: 2019-11-10 15:12:04,274: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png'
+INFO: 2019-11-10 15:12:05,026: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2019-11-10 15:12:05,127: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png, time: 1573369925.1271632'
+INFO: 2019-11-10 15:12:05,127: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:1920, ih:1080, scw:1920, sch:1080, ho:0, vo:0'
+INFO: 2019-11-10 15:12:05,127: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:12' -fill white -annotate 0x0+60+110 '15:12' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10''
+INFO: 2019-11-10 15:12:05,128: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert '/usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png' -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:12' -fill white -annotate 0x0+60+110 '15:12' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10' /home/raptazure/.config/variety/wallpaper/wallpaper-clock-70b9bc842254a3ebe82f026a8936c436.jpg'
+INFO: 2019-11-10 15:12:05,271: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png'
+INFO: 2019-11-10 15:12:05,351: reload() 'Reloading preferences dialog'
+INFO: 2019-11-10 15:12:24,037: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-11-10 15:12:31,879: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 164, in _new_conn
+    % (self.host, self.timeout),
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f8a9c8d2650>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c8d2650>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c8d2650>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-11-10 15:13:00,096: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2019-11-10 15:13:00,097: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png, time: 1573369980.0978508'
+INFO: 2019-11-10 15:13:00,099: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:1920, ih:1080, scw:1920, sch:1080, ho:0, vo:0'
+INFO: 2019-11-10 15:13:00,100: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:13' -fill white -annotate 0x0+60+110 '15:13' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10''
+INFO: 2019-11-10 15:13:00,100: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert '/usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png' -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:13' -fill white -annotate 0x0+60+110 '15:13' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10' /home/raptazure/.config/variety/wallpaper/wallpaper-clock-40d60aa44b8175629851783d101f84cf.jpg'
+INFO: 2019-11-10 15:13:00,224: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png'
+INFO: 2019-11-10 15:13:01,915: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-11-10 15:13:06,943: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 164, in _new_conn
+    % (self.host, self.timeout),
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f8a9c90b2d0>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c90b2d0>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c90b2d0>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-11-10 15:13:36,966: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-11-10 15:13:45,250: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 164, in _new_conn
+    % (self.host, self.timeout),
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f8a9c909510>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c909510>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c909510>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-11-10 15:14:00,172: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2019-11-10 15:14:00,173: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png, time: 1573370040.1737204'
+INFO: 2019-11-10 15:14:00,176: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:1920, ih:1080, scw:1920, sch:1080, ho:0, vo:0'
+INFO: 2019-11-10 15:14:00,176: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:14' -fill white -annotate 0x0+60+110 '15:14' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10''
+INFO: 2019-11-10 15:14:00,176: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert '/usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png' -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:14' -fill white -annotate 0x0+60+110 '15:14' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10' /home/raptazure/.config/variety/wallpaper/wallpaper-clock-57e7ae87548666589ddc39b4f5abc651.jpg'
+INFO: 2019-11-10 15:14:00,308: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png'
+INFO: 2019-11-10 15:14:15,282: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-11-10 15:14:20,306: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 164, in _new_conn
+    % (self.host, self.timeout),
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f8a9c909390>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c909390>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c909390>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-11-10 15:14:50,319: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+ERROR: 2019-11-10 15:14:55,566: server_options_thread() 'Could not fetch Variety serverside options'
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 157, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 672, in urlopen
+    chunked=chunked,
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 387, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 184, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 164, in _new_conn
+    % (self.host, self.timeout),
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPConnection object at 0x7f8a9c910ad0>, 'Connection to tiny.cc timed out. (connect timeout=5)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 720, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 436, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c910ad0>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/variety/VarietyWindow.py", line 939, in server_options_thread
+    self.server_options = Util.fetch_json(VarietyWindow.SERVERSIDE_OPTIONS_URL)
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 593, in fetch_json
+    return Util.request(url, data).json()
+  File "/usr/lib/python3.7/site-packages/variety/Util.py", line 571, in request
+    timeout=timeout)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 504, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPConnectionPool(host='tiny.cc', port=80): Max retries exceeded with url: /variety-options-063 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x7f8a9c910ad0>, 'Connection to tiny.cc timed out. (connect timeout=5)'))
+INFO: 2019-11-10 15:15:00,238: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2019-11-10 15:15:00,239: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png, time: 1573370100.2393568'
+INFO: 2019-11-10 15:15:00,241: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:1920, ih:1080, scw:1920, sch:1080, ho:0, vo:0'
+INFO: 2019-11-10 15:15:00,242: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:15' -fill white -annotate 0x0+60+110 '15:15' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10''
+INFO: 2019-11-10 15:15:00,242: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert '/usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png' -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Cantarell:Bold:36'` -pointsize 36 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '15:15' -fill white -annotate 0x0+60+110 '15:15' -font `fc-match -f '%{file[0]}' 'Cantarell:Thin:12'` -pointsize 12 -fill '#00000044' -annotate 0x0+58+58 '星期日, 十一月 10' -fill white -annotate 0x0+60+60 '星期日, 十一月 10' /home/raptazure/.config/variety/wallpaper/wallpaper-clock-685e3935bb6b32cd342970a373412456.jpg'
+INFO: 2019-11-10 15:15:00,416: update_indicator() 'Setting file info to: /usr/share/backgrounds/wallpapers-juhraya/Manjaro Juhraya_next.png'
