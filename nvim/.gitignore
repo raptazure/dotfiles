@@ -1,0 +1,11 @@
+*.swp
+.DS_Store
+.ccls-cache
+view/
+plugged/
+sessions/
+autoload/
+tmp/
+.netrwhist
+_machine_specific.vim
+
