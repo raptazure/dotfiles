@@ -57,7 +57,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = date bspwm i3
 modules-center = xwindow
-modules-right = filesystem backlight-acpi pulseaudio memory cpu network battery temperature powermenu
+modules-right = filesystem backlight-acpi pulseaudio network memory cpu battery temperature
 
 tray-position = right
 tray-padding = 2
@@ -224,10 +224,11 @@ label = %percentage_used%%
 
 [module/network]
 type = internal/network
-interface = wlan1
+interface = wlo1
 interval = 3.0
 udspeed-minwidth = 5
-
+accumulate-stats = false
+unknown-as-up = false
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
 format-packetloss = <label-connected>
@@ -389,7 +390,7 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = 
+label-open = R
 label-open-foreground = ${colors.secondary}
 label-close =  cancel
 label-close-foreground = ${colors.secondary}
