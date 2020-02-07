@@ -29,5 +29,5 @@ This folder includes my `i3`, `alacritty`, `albert`, `fish`, `omf`, `polybar`, `
 
 - `neo-vim` - A text editor (Vim-fork focused on extensibility and usability).  
 
-**Enjoy**
+**Enjoy!**
 
