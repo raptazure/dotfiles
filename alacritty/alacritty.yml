@@ -68,7 +68,7 @@ window:
   # Window class (Linux only):
   #class: Alacritty
 
-scrolling:
+  scrolling:
   # Maximum number of lines in the scrollback buffer.
   # Specifying '0' will disable scrolling.
   history: 10000
@@ -96,7 +96,6 @@ scrolling:
 # Some applications, like Emacs, rely on knowing about the width of a tab.
 # To prevent unexpected behavior in these applications, it's also required to
 # change the `it` value in terminfo when altering this setting.
-tabspaces: 8
 
 # Font configuration (changes require restart)
 font:
@@ -136,7 +135,7 @@ font:
     #style: Italic
 
   # Point size
-  size: 11.0
+  size: 15.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
