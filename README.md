@@ -14,7 +14,7 @@ This repo includes my `i3`, `alacritty`, `albert`, `fish`, `omf`, `polybar`, `va
 - `polybar` - A fast and easy-to-use tool for creating status bars. Polybar aims to help users build beautiful and highly customizable status bars.
 - `compton` - A compositor for X. Try blur effect [here](https://github.com/Raptazure/compton).
 - `neo-vim` - A text editor (Vim-fork focused on extensibility and usability).  
-- `zsh` - Configurate zsh with oh-my-zsh https://youtu.be/pTW02GMeI74 | https://gist.github.com/kevin-smets/8568070
+- `zsh` - Configurate zsh with oh-my-zsh [video guide](https://youtu.be/pTW02GMeI74) | [gist guide](https://gist.github.com/kevin-smets/8568070)
 - Iterm2 - A terminal emulator for Mac OS X that does amazing things.
 
 **Enjoy!**
