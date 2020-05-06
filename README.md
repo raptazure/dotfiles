@@ -15,7 +15,7 @@ This repo includes my `i3`, `alacritty`, `albert`, `fish`, `omf`, `polybar`, `va
 - `compton` - A compositor for X. Try blur effect [here](https://github.com/Raptazure/compton).
 - `neo-vim` - A text editor (Vim-fork focused on extensibility and usability).  
 - `zsh` - Configurate zsh and oh-my-zsh [video guide](https://youtu.be/pTW02GMeI74) | [gist guide](https://gist.github.com/kevin-smets/8568070)
-- Iterm2 - A terminal emulator for Mac OS X that does amazing things.
+- `Iterm2` - A terminal emulator for Mac OS X that does amazing things.
 
 **Enjoy!**
 
