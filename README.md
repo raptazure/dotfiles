@@ -2,8 +2,6 @@
 
 This repo includes my `i3`, `alacritty`, `albert`, `fish`, `omf`, `polybar`, `variety`, `neovim`, `ranger`, `zsh`, `iterm2` and `compton` config files.
 
-## about
-
 - `fish` - A smart and user-friendly command shell for Linux.
 - `oh-my-fish` - A fishshell framework that allows you to install packages which extend or modify the look and feel of your shell.
 - `alacritty` - A free open-source, fast, cross-platform terminal emulator, that uses GPU (Graphics Processing Unit) for rendering. Alacritty is focused on two goals simplicity and performance.
@@ -15,7 +13,7 @@ This repo includes my `i3`, `alacritty`, `albert`, `fish`, `omf`, `polybar`, `va
 - `compton` - A compositor for X. Try blur effect [here](https://github.com/Raptazure/compton).
 - `neo-vim` - A text editor (Vim-fork focused on extensibility and usability).  
 - `zsh` - Configurate zsh and oh-my-zsh [video guide](https://youtu.be/pTW02GMeI74) | [gist guide](https://gist.github.com/kevin-smets/8568070)
-- `Iterm2` - A terminal emulator for Mac OS X that does amazing things.
+- `iterm2` - A terminal emulator for Mac OS X that does amazing things.
 
 **Enjoy!**
 
