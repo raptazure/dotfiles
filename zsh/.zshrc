@@ -101,8 +101,10 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1086"
-alias unsetproxy="unset ALL_PROXY"
+alias setproxy1="export http_proxy=socks5://127.0.0.1:1086"
+alias setproxy2="export https_proxy=socks5://127.0.0.1:1086"
+alias unsetproxy1="unset http_proxy"
+alias unsetproxy2="unset https_proxy"
 alias ip="curl cip.cc"
 #
 # Example aliases
@@ -113,3 +115,9 @@ alias ip="curl cip.cc"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+export DENO_INSTALL="/Users/raptazure/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
