@@ -117,9 +117,16 @@ alias ip="curl cip.cc"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export DENO_INSTALL="/Users/raptazure/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
+export PATH="$DENO_INSTALL/bin:$PATH:/Users/raptazure/.local/bin:$PATH:Users/raptazure/.cabal/bin:$PATH:/Users/raptazure/.cabal/store/ghc-8.10.1/hgl-5.0.18-9cce9820/bin/:$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 [[ -s "/Users/raptazure/.gvm/scripts/gvm" ]] && source "/Users/raptazure/.gvm/scripts/gvm"
+
+# opam configuration
+test -r /Users/raptazure/.opam/opam-init/init.zsh && . /Users/raptazure/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+if [ -e /Users/raptazure/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/raptazure/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
+eval "$(direnv hook zsh)"
+export IHP_EDITOR='code --goto'
