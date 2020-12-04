@@ -101,8 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-alias setproxy1="export http_proxy=socks5://127.0.0.1:7890"
-alias setproxy2="export https_proxy=socks5://127.0.0.1:7890"
+alias setproxy="export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890"
 alias unsetproxy1="unset http_proxy"
 alias unsetproxy2="unset https_proxy"
 alias ip="curl cip.cc"
@@ -117,7 +116,7 @@ alias ip="curl cip.cc"
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export DENO_INSTALL="/Users/raptazure/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH:/Users/raptazure/.local/bin:$PATH:Users/raptazure/.cabal/bin:$PATH:/Users/raptazure/.cabal/store/ghc-8.10.1/hgl-5.0.18-9cce9820/bin/:$HOME/.cabal/bin:$HOME/.ghcup/bin:$PATH"
+export PATH="$DENO_INSTALL/bin:/Users/raptazure/.local/bin:Users/raptazure/.cabal/bin:/Users/raptazure/.cabal/store/ghc-8.10.1/hgl-5.0.18-9cce9820/bin/:$HOME/.cabal/bin:$HOME/.ghcup/bin:/usr/local/smlnj/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
